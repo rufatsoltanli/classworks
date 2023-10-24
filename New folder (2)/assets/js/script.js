@@ -25,18 +25,29 @@
 
 //     }
 // }
-let sum = 0
-let answer
-let array= [2,4,6,8,10,12]
-for (let i = 0; i <= array.length; i+=2) {
+// let sum = 0
+// let answer
+// let array= [2,4,6,8,10,12]
+// for (let i = 0; i <= array.length; i+=2) {
 
 
-console.log(array[i]);
-    
-}
+// console.log(array[i]);
+
+// }
 
 // sum +=i
-    
+
 // console.log(sum);
 // answer=sum /array.length
 // console.log(answer);
+
+
+const array = [23, 32, 45, 56, 65,987089798 ,76,98 , 87,101,41,23,120]
+var max = array[0]
+for (let i = 0; i < array.length; i++) {
+    if (array[i] > max) {
+        max = array[i]
+    }
+
+}
+console.log(max);
